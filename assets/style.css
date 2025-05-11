@@ -8,3 +8,14 @@ table thead th {
     padding: 8px 8px; /* 8px (t,b,l,r), 8px 8px (tb, lr), 8px 8xp 8px 8px (t, r, b, l) */
     text-align: left;
 }
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+table tbody td {
+    padding: 8px 8px; /* 8px (t,b,l,r), 8px 8px (tb, lr), 8px 8xp 8px 8px (t, r, b, l) */
+    border-bottom: 1px solid #ddd;
+}
