@@ -1,0 +1,10 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead th {
+    background-color: #f2f2f2;
+    padding: 8px 8px; /* 8px (t,b,l,r), 8px 8px (tb, lr), 8px 8xp 8px 8px (t, r, b, l) */
+    text-align: left;
+}
